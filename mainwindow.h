@@ -37,6 +37,10 @@ private slots:
     
     void on_pushButtonAbout_clicked();
     
+    void on_lineEditYoutubeDl_editingFinished();
+    
+    void on_lineEditDownloadFolder_editingFinished();
+    
 private:
     Ui::MainWindow *ui;
     QProcess *ytdl;

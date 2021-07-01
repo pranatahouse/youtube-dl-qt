@@ -165,3 +165,21 @@ void MainWindow::on_pushButtonAbout_clicked()
     QMessageBox::about(this, "Video Downloader", "Video Downloader 1.0\n\nA simple youtude-dl gui.\n\n(c) 2021 pranatahouse.com");
 }
 
+
+void MainWindow::on_lineEditYoutubeDl_editingFinished()
+{
+    QString fpath = ui->lineEditYoutubeDl->text();
+    if (!fpath.isEmpty()) {
+        settings->setValue("youtube_dl_path", fpath);
+    }
+}
+
+
+void MainWindow::on_lineEditDownloadFolder_editingFinished()
+{
+    QString fpath = ui->lineEditDownloadFolder->text();
+    if (!fpath.isEmpty()) {
+        settings->setValue("download_dir", fpath);
+    }
+}
+
