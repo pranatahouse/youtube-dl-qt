@@ -162,6 +162,7 @@ void MainWindow::on_pushButtonSelectYoutubeDl_clicked()
 
 void MainWindow::on_pushButtonAbout_clicked()
 {
+    // need more general texts
     QMessageBox::about(this, "Video Downloader", "Video Downloader 1.0\n\nA simple youtude-dl gui.\n\n(c) 2021 pranatahouse.com");
 }
 
