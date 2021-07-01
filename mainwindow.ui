@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">* {
-	font: 10pt &quot;MS Shell Dlg 2&quot;;
+	font: 9pt &quot;MS Shell Dlg 2&quot;;
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -167,7 +167,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>27</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
